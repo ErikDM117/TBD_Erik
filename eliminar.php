@@ -4,7 +4,7 @@ if (!isset($_SESSION['loggedin'])) {
     header('Location: index.html');
     exit;
 }
-// Incluir el archivo de conexión a la base de datos
+// Incluir el archivo de conexión a la base de datos de erik el guapo
 include 'conexionDB.php';
 global $con;
 
