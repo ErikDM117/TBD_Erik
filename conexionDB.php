@@ -3,7 +3,7 @@ $servername = "localhost";
 $username = "root";
 $password = "erikdominguez";
 $database = "partitech";
-// Crear una conexión a la base de datos
+// Crear una conexión a la base de datos de erik
 $con = new mysqli($servername, $username, $password, $database);
 // Verificar si la conexión fue exitosa
 if ($con->connect_error) {
